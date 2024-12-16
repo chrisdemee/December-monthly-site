@@ -11,13 +11,57 @@ function genPrefix(firstName) {
 function genFirstname(firstName) {
     const firstLetter = firstName.charAt(0).toLowerCase();
     if (firstLetter === 'a') {
-        return 'Jeff';
+        return 'Andrea';
     } else if (firstLetter === 'b') {
-        return 'Devon';
+        return 'Michonne';
     } else if (firstLetter === 'c') {
         return 'Rick';
     } else if (firstLetter === 'd') {
         return 'Daryl';
+    } else if (firstLetter === 'e') {
+        return 'Glenn';
+    } else if (firstLetter === 'f') {
+        return 'Carol';
+    } else if (firstLetter === 'g') {
+        return 'Dale';
+    } else if (firstLetter === 'h') {
+        return 'Negan';
+    } else if (firstLetter === 'i') {
+        return 'Carl';
+    } else if (firstLetter === 'j') {
+        return 'Lee';
+    } else if (firstLetter === 'k') {
+        return 'Ed';
+    } else if (firstLetter === 'l') {
+        return 'Maggie';
+    } else if (firstLetter === 'm') {
+        return 'Gregory';
+    } else if (firstLetter === 'n') {
+        return 'Hershel';
+    } else if (firstLetter === 'o') {
+        return 'Merle';
+    } else if (firstLetter === 'p') {
+        return 'Tyreese';
+    } else if (firstLetter === 'q') {
+        return 'Gabriel';
+    } else if (firstLetter === 'r') {
+        return 'Ezekiel';
+    } else if (firstLetter === 's') {
+        return 'Abraham';
+    } else if (firstLetter === 't') {
+        return 'Judith';
+    } else if (firstLetter === 'u') {
+        return 'Eugene';
+    } else if (firstLetter === 'v') {
+        return 'Sasha';
+    } else if (firstLetter === 'w') {
+        return 'Shane';
+    } else if (firstLetter === 'x') {
+        return 'Aaron';
+    } else if (firstLetter === 'y') {
+        return 'Alpha';
+    } else if (firstLetter === 'z') {
+        return 'Jesus';
     } else {
         return 'Walter';
     }
