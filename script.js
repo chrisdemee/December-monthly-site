@@ -84,13 +84,57 @@ function genMiddlename(RoadType, favoriteColor) {
 function genLastName(lastName) {
     const lastLetter = lastName.charAt(lastName.length - 1).toLowerCase();
     if (lastLetter === 'e') {
-        return 'Shadow';
+        return 'Rhee';
     } else if (lastLetter === 'i') {
-        return 'Stone';
+        return 'Grimes';
     } else if (lastLetter === 'o') {
         return 'Thorn';
     } else if (lastLetter === 'a') {
+        return 'Walsh';
+    } else if (lastLetter === 'b') {
+        return 'Peletier';
+    } else if (lastLetter === 'c') {
+        return 'Greene';
+    } else if (lastLetter === 'd') {
+        return 'Dixon';
+    } else if (lastLetter === 'f') {
+        return 'Ford';
+    } else if (lastLetter === 'g') {
+        return 'Stookey';
+    } else if (lastLetter === 'h') {
+        return 'Williams';
+    } else if (lastLetter === 'j') {
+        return 'Jones';
+    } else if (lastLetter === 'k') {
+        return 'Stokes';
+    } else if (lastLetter === 'l') {
+        return 'Dog';
+    } else if (lastLetter === 'm') {
+        return 'Porter';
+    } else if (lastLetter === 'n') {
+        return 'Espinosa';
+    } else if (lastLetter === 'p') {
+        return 'Horvath';
+    } else if (lastLetter === 'q') {
+        return 'Martinez';
+    } else if (lastLetter === 'r') {
+        return 'Everett';
+    } else if (lastLetter === 's') {
+        return 'Lerner';
+    } else if (lastLetter === 't') {
+        return 'Milton';
+    } else if (lastLetter === 'u') {
+        return 'Harrison';
+    } else if (lastLetter === 'v') {
+        return 'Rovia';
+    } else if (lastLetter === 'w') {
         return 'Frost';
+    } else if (lastLetter === 'x') {
+        return 'Clark';
+    } else if (lastLetter === 'y') {
+        return 'Anderson';
+    } else if (lastLetter === 'z') {
+        return 'Samuels';
     } else {
         return 'Moon';
     }
