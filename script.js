@@ -69,12 +69,26 @@ function genFirstname(firstName) {
 
 // Generate middle name
 function genMiddlename(RoadType, favoriteColor) {
-    if (RoadType === 'Road') {
-        return `${favoriteColor}ridge`;
-    } else if (RoadType === 'Street') {
-        return `${favoriteColor}son`;
-    } else if (RoadType === 'Avenue') {
-        return `${favoriteColor}field`;
+    if (RoadType === 'Barn') {
+        return `${favoriteColor}farm`;
+    } else if (RoadType === 'Prison') {
+        return `${favoriteColor}cell`;
+    } else if (RoadType === 'Alexandria') {
+        return `${favoriteColor}tower`;
+    } else if (RoadType === 'Woodbury') {
+        return `${favoriteColor}axe`;
+    } else if (RoadType === 'Terminus') {
+        return `${favoriteColor}cannon`;
+    } else if (RoadType === 'Church') {
+        return `${favoriteColor}cross`;
+    } else if (RoadType === 'Hilltop') {
+        return `${favoriteColor}brick`;
+    } else if (RoadType === 'The Sanctuary') {
+        return `${favoriteColor}lucille`;
+    } else if (RoadType === 'Oceanside') {
+        return `${favoriteColor}water`;
+    } else if (RoadType === 'The Kingdom') {
+        return `${favoriteColor}crown`;
     } else {
         return `${favoriteColor}stone`;
     }
