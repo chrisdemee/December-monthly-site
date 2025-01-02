@@ -1,11 +1,16 @@
 // Generate prefix of name
 function genPrefix(firstName) {
-    if (firstName.length > 4) {
-        return 'The Great';
-    } else {
+    const firstLetter = firstName.charAt(0).toLowerCase()
+    switch(firstName){
+    case firstName.length > 5:
+        return 'The Great'; 
+    case firstName.length === 5:
+        return 'The ravaging';
+     default:
         return 'Master';
     }
 }
+
 
 // Generate first name
 function genFirstname(firstName) {
@@ -117,8 +122,7 @@ function genLastName(lastName) {
         return 'Stookey';
     } else if (lastLetter === 'h') {
         return 'Williams';
-    } else if (lastLetter === 'j') {
-        return 'Jones';
+    
     } else if (lastLetter === 'k') {
         return 'Stokes';
     } else if (lastLetter === 'l') {
@@ -129,8 +133,7 @@ function genLastName(lastName) {
         return 'Espinosa';
     } else if (lastLetter === 'p') {
         return 'Horvath';
-    } else if (lastLetter === 'q') {
-        return 'Martinez';
+   
     } else if (lastLetter === 'r') {
         return 'Everett';
     } else if (lastLetter === 's') {
@@ -149,6 +152,8 @@ function genLastName(lastName) {
         return 'Anderson';
     } else if (lastLetter === 'z') {
         return 'Samuels';
+    } else if (lastLetter === 'j' || lastLetter === 'q'){
+        return'Martinez';
     } else {
         return 'Moon';
     }
