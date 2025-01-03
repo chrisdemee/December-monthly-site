@@ -9,15 +9,15 @@ function genPrefix(firstName) {
     case firstName.length === 3:
         return 'The Amazing'
     case firstName.length === 4:
-      return "The Amazing";
+      return "The Amazing"
     case firstName.length === 5:
-      return "The ravaging";
+      return "The ravaging"
     case firstName.length === 6:
-      return "The Amazing";
+      return "The Amazing"
     case firstName.length === 7:
-      return "The Reaping";
+      return "The Reaping"
     case firstName.length === 8:
-      return "The Amazing";
+      return "The Amazing"
     default:
       return "Master";
   }
