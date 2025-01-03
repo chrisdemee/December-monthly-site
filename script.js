@@ -164,7 +164,25 @@ function genLastName(lastName) {
 // Generate suffix
 function genSuffix(favoriteAnimal) {
   if (favoriteAnimal === "Red Machete" && favoriteColor.length === 3) {
+    return "stereo";
+  }
+  if (favoriteAnimal === "Barbed Wire Bat" && favoriteColor.length === 4) {
+    return "tie";
+  }
+  if (favoriteAnimal === "Katana" && favoriteColor.length === 5) {
+    return "shirt";
+  }
+  if (favoriteAnimal === "Crossbow" && favoriteColor.length === 6) {
+    return "tape";
+  }
+  if (favoriteAnimal === "Arm" && favoriteColor.length === 7) {
     return "bagger";
+  }
+  if (favoriteAnimal === "Slingshot" && favoriteColor.length === 8) {
+    return "earth";
+  }
+  if (favoriteAnimal === "Staff" && favoriteColor.length === 9) {
+    return "rock";
   }
   return `of the ${favoriteAnimal}`;
 
