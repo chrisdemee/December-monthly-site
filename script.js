@@ -1,27 +1,20 @@
 // Generate prefix of name
 function genPrefix(firstName) {
-  const firstLetter = firstName.charAt(0).toLowerCase();
-  switch (firstName) {
-    case firstName.length === 9:
-     return 'The Amazing'
-    case firstName.length === 2:
-     return 'The Amazing'
-    case firstName.length === 3:
-        return 'The Amazing'
-    case firstName.length === 4:
-      return "The Amazing"
-    case firstName.length === 5:
-      return "The ravaging"
-    case firstName.length === 6:
-      return "The Amazing"
-    case firstName.length === 7:
-      return "The Reaping"
-    case firstName.length === 8:
-      return "The Amazing"
-    default:
-      return "Master";
+  if (firstName.length === 2 || firstName.length === 3 || firstName.length === 4 || firstName.length === 5) {
+    return "King";
+  } else if (firstName.length === 6) {
+    return "The Ravaging";
+  } else if (firstName.length === 7) {
+    return "The Dancing";
+  } else if (firstName.length === 8) {
+    return "The Reaping";
+  } else if (firstName.length === 9) {
+    return "The Brave";
+  } else {
+    return "Master";
   }
 }
+
 
 // Generate first name
 function genFirstname(firstName) {
@@ -90,7 +83,7 @@ function genMiddlename(RoadType, favoriteColor) {
   } else if (RoadType === "Prison") {
     return `${favoriteColor}cell`;
   } else if (RoadType === "Alexandria") {
-    return `${favoriteColor}tower`;
+    return `tower`;
   } else if (RoadType === "Woodbury") {
     return `${favoriteColor}axe`;
   } else if (RoadType === "Terminus") {
@@ -170,7 +163,11 @@ function genLastName(lastName) {
 
 // Generate suffix
 function genSuffix(favoriteAnimal) {
+  if (favoriteAnimal === "Red Machete" && favoriteColor.length === 3) {
+    return "bagger";
+  }
   return `of the ${favoriteAnimal}`;
+
 }
 
 function genFullName() {
